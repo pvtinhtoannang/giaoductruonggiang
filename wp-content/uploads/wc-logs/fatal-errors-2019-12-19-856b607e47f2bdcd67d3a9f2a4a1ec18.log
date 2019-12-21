@@ -1,0 +1,8 @@
+2019-12-19T06:49:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\DEV\WP\wpgiaoductruonggiang.local\wp-includes\Requests\Transport\cURL.php on line 162
+
+2019-12-19T06:50:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\DEV\WP\wpgiaoductruonggiang.local\wp-includes\Requests\Transport\cURL.php on line 162
+
+2019-12-19T08:48:45+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in D:\DEV\WP\wpgiaoductruonggiang.local\wp-content\themes\tnct-genesis-child\inc\helpers.php on line 4
+
+2019-12-19T08:49:21+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in D:\DEV\WP\wpgiaoductruonggiang.local\wp-content\themes\tnct-genesis-child\inc\helpers.php on line 4
+

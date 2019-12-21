@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/SFUHelveticaLight.eot');
+  src: local('☺'), url('../fonts/SFUHelveticaLight.woff') format('woff'), url('../fonts/SFUHelveticaLight.ttf') format('truetype'), url('../fonts/SFUHelveticaLight.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/SFUHelveticaLight.eot');
+  src: local('☺'), url('../fonts/SFUHelveticaBold.woff') format('woff'), url('../fonts/SFUHelveticaBold.ttf') format('truetype'), url('../fonts/SFUHelveticaBold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeue-Medium.eot');
+  src: local('☺'), url('../fonts/HelveticaNeue-Medium.woff') format('woff'), url('../fonts/HelveticaNeue-Medium.ttf') format('truetype'), url('../fonts/HelveticaNeue-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UTM Androgyne';
+  src: url('../fonts/UTM Androgyne.eot');
+  src: local('☺'), url('../fonts/UTM Androgyne.woff') format('woff'), url('../fonts/UTM Androgyne.ttf') format('truetype'), url('../fonts/UTM Androgyne.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1370px;
+    margin: auto;
+  }
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+section {
+  max-width: 1920px;
+  margin: auto;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+a, img {
+  transition: all .4s ease-in-out;
+}
+
+.d-flex {
+  display: flex;
+  display: -o-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+}
+
+.align-item-center {
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.trans-default {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.before, .after {
+  &:before, &:after {
+    content: '';
+    position: absolute;
+  }
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+@mixin textWithEllipsis($fontSize, $lineHeight, $line) {
+  font-size: $fontSize+px;
+  line-height: $lineHeight;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: ($fontSize * $lineHeight * $line)+px;
+}
+
+$mobile: 580px;
+$tablet: 768px;
+$large: 992px;
+$desktop: 1024px;
+$largedesktop: 1199px;
+$bigsize: 1400px;
+@mixin mobile {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin table {
+  @media (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (max-width: #{$large}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin largedesktop {
+  @media (max-width: #{$largedesktop}) {
+    @content;
+  }
+}
+
+@mixin bigsize {
+  @media (max-width: #{$bigsize}) {
+    @content;
+  }
+}

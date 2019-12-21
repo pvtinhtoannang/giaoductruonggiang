@@ -1,0 +1,200 @@
+.pvtinh_gdtruonggiang_hotcourse {
+  padding: 30px 0;
+  overflow: hidden;
+  /* the slides */
+  .slick-slide {
+    margin: 0 15px;
+    @include large{
+      margin: 0 5px;
+    }
+  }
+
+  /* the parent */
+  .slick-list {
+    margin: 0 -15px;
+    @include large{
+      margin: 0 -5px;
+    }
+  }
+
+  button.slick-arrow {
+
+    width: 68px;
+    height: 68px;
+    background-image: url(../images/arrows-noibat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+
+    &:before {
+      content: unset;
+    }
+  }
+
+  button.slick-prev {
+    left: -35px;
+    top: calc(50% - 34px);
+  }
+
+  button.slick-next {
+    right: -35px;
+    top: calc(50% - 80px);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+}
+
+.title-section {
+  font-size: 25px;
+  color: #1f1f1f;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.course-item {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  font-weight: 300;
+  position: relative;
+  overflow: hidden;
+
+  &.hot {
+    &:before {
+      content: 'HOT';
+      width: 52px;
+      background-color: #c31818;
+      color: #FFF;
+      height: 22px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      font-weight: 500;
+      text-align: center;
+      line-height: 22px;
+      top: 10px;
+      left: 10px;
+    }
+  }
+
+  &:hover {
+    .box-info {
+      background-color: #c31818;
+      color: #FFF;
+    }
+
+    .view, .author {
+      color: #FFF;
+    }
+
+    .title-course {
+      a {
+        color: #FFFF;
+      }
+    }
+
+    del {
+      opacity: 0.5;
+    }
+
+    .list-price {
+      span {
+        color: #FFF;
+      }
+    }
+  }
+
+  .box-img {
+    height: 235px;
+    width: 100%;
+    overflow: hidden;
+    @include mobile{
+      height: 180px;
+    }
+  }
+
+  .box-info {
+    padding: 10px 15px;
+    color: #353535;
+    font-size: 15px;
+    background-color: #FFF;
+  }
+
+  .list-star {
+    font-size: 13px;
+    @include mobile{
+      font-size: 11px;
+    }
+  }
+
+  .fa-star {
+    color: #ffd200;
+  }
+
+  .view, .author {
+    color: #979797;
+  }
+
+  .view {
+    margin: 0 10px;
+  }
+
+  .title {
+    a{
+      color: #353535;
+      margin-bottom: 5px;
+    }
+  }
+
+  .title-course {
+    a {
+      @include textWithEllipsis(15, 1.3, 2);
+      @include mobile{
+        @include textWithEllipsis(14, 1.3, 2);
+      }
+    }
+  }
+
+  .title-news {
+    a {
+      @include textWithEllipsis(15, 1.3, 3);
+      @include mobile{
+        @include textWithEllipsis(14, 1.3, 3);
+      }
+    }
+  }
+
+  .box-avatar {
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+
+  .list-price {
+    text-align: right;
+
+    span {
+      font-weight: 700;
+      color: #c31818;
+      font-size: 18px;
+      padding-left: 5px;
+
+    }
+  }
+  @include mobile{
+    .list-price {
+      font-size: 13px;
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.pvtinh_gdtruonggiang_footer {
+  background-color: #FFF;
+
+  .logo-footer {
+    width: 200px;
+    height: 120px;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .title-footer{
+    font-weight: 500;
+    color: #565656;
+    margin: 5px 0;
+
+  }
+
+  .bct{
+    margin: 30px 0;
+    height: 55px;
+  }
+
+  .menu-footer{
+    a{
+      display: block;
+      color: #3d3d3d;
+      font-weight: 300;
+      line-height: 1.9;
+    }
+  }
+  .information{
+    margin-top: 15px;
+    li{
+      font-weight: 500;
+      color: #3d3d3d;
+      padding-left: 35px;
+      position: relative;
+      font-size: 16px;
+      line-height: 1.8;
+      margin: 6px 0;
+      &:before{
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        left: 0;
+      }
+      &:nth-child(1){
+        &:before{
+          background-image: url(../images/customer-service.png);
+        }
+      }
+      &:nth-child(2){
+        &:before{
+          background-image: url(../images/email.png);
+        }
+      }
+    }
+  }
+
+  .footer-content {
+    .footer-item {
+      flex-basis: calc(50% / 3);
+      -webkit-flex-basis: calc(50% / 3);
+      &:nth-child(1){
+        flex-basis: calc(50% / 3 + 30px);
+        -webkit-flex-basis: calc(50% / 3 + 30px);
+      }
+      &:nth-child(4), &:nth-child(5) {
+        flex-basis: calc(100% / 4);
+        -webkit-flex-basis: calc(100% / 4);
+      }
+    }
+  }
+  .copyright{
+    background-image: url(../images/bg-footer.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.45;
+    padding: 10px 0;
+  }
+}

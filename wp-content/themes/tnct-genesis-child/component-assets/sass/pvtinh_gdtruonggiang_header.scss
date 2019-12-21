@@ -1,0 +1,201 @@
+.pvtinh_gdtruonggiang_header {
+  .header-content {
+    align-items: center;
+    -webkit-align-items: center;
+  }
+
+  .logo-header {
+    width: 200px;
+    text-align: center;
+    height: 95px;
+    @include large{
+      width: 130px;
+    }
+  }
+
+  .search-box {
+    width: 100%;
+    max-width: 380px;
+    @include large{
+      flex-basis: calc(100% - 130px);
+      -webkit-flex-basis: calc(100% - 130px);
+    }
+    form {
+      position: relative;
+      width: 100%;
+
+      input {
+        border: 1px solid #c31818;
+        background-color: #edf0f1;
+        color: #000000;
+        opacity: 0.5;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        width: 100%;
+        height: 44px;
+        padding: 12px 15px;
+        font-size: 15px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+      }
+
+      button {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 46px;
+        border: 0;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        background-image: linear-gradient(to bottom, #ff4848, #c41818);
+        color: #FFF;
+      }
+    }
+  }
+
+  .list-action {
+    .box-icons {
+      width: 25px;
+      height: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      position: relative;
+      margin: 0 5px;
+
+      .count {
+        position: absolute;
+        display: block;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #e1081d;
+        color: #FFF;
+        padding: 0px 7px;
+        font-size: 10px;
+        top: -5px;
+        right: -10px;
+        z-index: 2;
+      }
+
+      &:nth-child(1) {
+        background-image: url(../images/shopping-cart.png);
+      }
+
+      &:nth-child(2) {
+        background-image: url(../images/heart.png);
+        margin-top: 2px;
+      }
+
+      &:nth-child(3) {
+        background-image: url(../images/bell.png);
+      }
+    }
+  }
+  .right-menu{
+    .list-action{
+      .box-icons{
+        filter: invert(91%) sepia(99%) saturate(35%) hue-rotate(200deg) brightness(107%) contrast(99%);
+        -webkit-filter: invert(91%) sepia(99%) saturate(35%) hue-rotate(200deg) brightness(107%) contrast(99%);
+      }
+    }
+  }
+  .menu-mobile{
+    padding: 7px 0;
+  }
+  .button-menu{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FFF;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+  }
+  .list-account {
+    a {
+      display: block;
+      width: 115px;
+      height: 35px;
+      color: #646464;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      line-height: 28px;
+      border: 1px solid transparent;
+      font-weight: 300;
+
+      &:hover {
+        color: #e1081d;
+        border: 1px solid #e1081d;
+      }
+
+      @include largedesktop{
+        width: 90px;
+      }
+    }
+
+  }
+
+  .menu-header {
+    background-image: url(../images/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  .main-menu {
+    > ul {
+      a {
+        display: block;
+        color: #FFF;
+        width: 100%;
+        font-weight: 500;
+        padding: 10px 15px;
+        line-height: 1.3;
+      }
+
+      display: flex;
+      display: -o-flex;
+      display: -ms-flex;
+      display: -moz-flex;
+      display: -webkit-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      justify-content: space-between;
+      -webkit-justify-content: space-between;
+
+      > li {
+        position: relative;
+        &:hover{
+          >ul{
+            top: 40px;
+            opacity: 1;
+            visibility: visible;
+            height: auto;
+          }
+        }
+        > ul {
+          position: absolute;
+          background-image: url(../images/bg-header.jpg);
+          background-position: center;
+          background-size: cover;
+          min-width: 200px;
+          top: 100px;
+          -webkit-transition: all .4s ease-in-out;
+          -moz-transition: all .4s ease-in-out;
+          -ms-transition: all .4s ease-in-out;
+          -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+          opacity: 0;
+          visibility: hidden;
+          height: 0;
+        }
+      }
+    }
+  }
+}

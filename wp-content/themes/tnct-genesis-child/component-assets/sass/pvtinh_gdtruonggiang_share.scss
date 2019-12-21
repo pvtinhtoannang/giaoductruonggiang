@@ -1,0 +1,49 @@
+.pvtinh_gdtruonggiang_share {
+  background-image: linear-gradient(to bottom, #edf0f1 90%, #d2d4d5);
+  padding: 30px 0;
+
+  .item {
+    &:nth-child(1), &:nth-child(2) {
+      .news-item {
+        height: 275px;
+      }
+
+      .title-news {
+        width: 45%;
+      }
+    }
+  }
+
+  .news-item {
+    height: 390px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    @include large {
+      height: 275px;
+    }
+
+    .title-news {
+      position: absolute;
+      bottom: 10px;
+      left: 30px;
+      width: 70%;
+      font-size: 15px;
+      font-weight: 300;
+
+      &:before {
+        width: 5px;
+        height: 100%;
+        background-color: #FFF;
+        left: -10px;
+      }
+
+      a {
+        color: #FFF;
+      }
+    }
+  }
+}

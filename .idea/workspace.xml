@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="371ad6e5-c649-4746-84b1-c7c0d43a4f9f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VBsidYErAzmL6P5et9aFL3vpf9" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KENZ/kenz3.addmobile.local" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="371ad6e5-c649-4746-84b1-c7c0d43a4f9f" name="Default Changelist" comment="" />
+      <created>1576737950460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576737950460</updated>
+      <workItem from="1576737951816" duration="482000" />
+      <workItem from="1576743419292" duration="2355000" />
+      <workItem from="1576825123815" duration="5004000" />
+      <workItem from="1576852563775" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/js/actor-manager.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/tweak-manager.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/metaboxes/metabox-editor.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/metaboxes/metabox-editor.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/super-users/super-users.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget-editor.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget-editor.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget.js.map" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/modules/actor-selector/actor-selector.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/admin-menu-editor-pro/modules/plugin-visibility/plugin-visibility.js" />
+      </list>
+    </option>
+  </component>
+</project>

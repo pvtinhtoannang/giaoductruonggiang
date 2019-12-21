@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import '../sass/global';
+
+@import '../sass/pvtinh_gdtruonggiang_header';
+@import '../sass/pvtinh_gdtruonggiang_slider';
+@import '../sass/pvtinh_gdtruonggiang_hotcourse';
+@import '../sass/pvtinh_gdtruonggiang_course';
+@import '../sass/pvtinh_gdtruonggiang_subscribe';
+@import '../sass/pvtinh_gdtruonggiang_share';
+@import '../sass/pvtinh_gdtruonggiang_footer';
+@import '../sass/pvtinh_gdtruonggiang_single';

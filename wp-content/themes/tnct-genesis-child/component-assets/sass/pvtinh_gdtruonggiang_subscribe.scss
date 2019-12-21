@@ -1,0 +1,26 @@
+.pvtinh_gdtruonggiang_subscribe{
+  background-image: url(../images/bg-subscribe.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  .title-subscibe{
+    font-size: 20.93px;
+    font-family: 'UTM Androgyne', sans-serif;
+    line-height: 2;
+  }
+  .sub-title{
+    margin: 20px auto;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  button{
+    margin: 10px auto;
+    width: 165px;
+    height: 39px;
+    font-weight: 700;border-radius: 20px;
+    border: 0;
+    color: #cb0000;
+
+  }
+}
